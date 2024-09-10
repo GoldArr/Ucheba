@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+    float x=0, y=10, r = 0;
+    cout << "   Вариант 10";
+    while(x<=10)
+    {
+        cout << "\n X равен" << x;
+        cout << "\n y равен" << y;
+        r = pow(x+1/x-1,x)+18*x*pow(y,2);
+        cout << "\nПри x = " << x << "\n Результат - " << r;
+        x=x+0.1;
+        y=y-0.1;
+    }
+    return 0;
+}
