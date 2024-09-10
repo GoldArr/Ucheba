@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+    
+int main() {
+    cout << "   Вариант 12\n";
+    float x = 0, resultat = 0;
+    while(x<=10.1)
+    {
+        resultat = pow(x, 2)-7*x+10 / pow(x, 2)-8*x+12;
+        cout << "\nПри x = " << x << "\n Результат - " << resultat;
+        x = x+0.1;
+    }
+    return 0;
+}
