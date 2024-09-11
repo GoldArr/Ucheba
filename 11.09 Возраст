@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+    int x;
+    cout <<"Напишите возраст ";
+        cin >> x;
+    if (x > 0 || x < 6)
+    {
+        cout << "Мелюзга";
+    }
+    else if (x > 7 || x < 18)
+    {
+        cout << "Шкила";
+    }
+    else if (x > 19 || x < 64)
+    {
+        cout << "Мамонт";
+    }
+    else if (x > 65)
+    {
+        cout << "Динозавр";
+    }
+    return 0;
+}
