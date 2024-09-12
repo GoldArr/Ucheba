@@ -3,24 +3,29 @@
 using namespace std;
 
 int main() {
-    int x;
+    int x,;
     cout <<"Напишите возраст ";
         cin >> x;
-    if (x > 0 & x < 6)
+    if (x > 0 & x <= 6)
     {
         cout << "Мелюзга";
     }
-    else if (x > 7 & x < 18)
+    else if (x >= 7 & x <= 17)
     {
         cout << "Шкила";
     }
-    else if (x > 19 & x < 64)
+    else if (x =18)
+    {
+        cout << "Военкомат";
+    }
+    else if (x >= 19 & x <= 64)
     {
         cout << "Мамонт";
     }
-    else if (x > 65)
+    else if (x >= 65)
     {
         cout << "Динозавр";
     }
+    
     return 0;
 }
