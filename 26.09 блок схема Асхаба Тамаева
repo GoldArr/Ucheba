@@ -1,0 +1,28 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+    float x, y;
+    cout << "made by Aсхаб Тамаев\nВвэдите X" << "\n";
+    cin >> x;
+    if (x<0)
+    {
+        y=x*x+1;
+    }
+    else
+    {
+        if (x>=1)
+        {
+            y=4*x-1;
+        }
+    else
+    {
+        y=2*x+1;
+    }
+    }
+    cout << "Отвэт = " << y;
+    cout << "\nИзвенись за это";
+    return 0;
+}
