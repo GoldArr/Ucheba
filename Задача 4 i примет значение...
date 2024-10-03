@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+    float i=0, P=1;
+    i=i+1;
+    while(P<=30)
+    {
+        P=P*i;
+        i=i+1;
+    }
+    cout << "i имеет значение = " << i;
+    return 0;
+}
