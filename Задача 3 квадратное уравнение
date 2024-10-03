@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+    float a,b,c, D=0, x1=0, x2=0;
+    cout << "Введите значения:\na = ";
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+    cout << "c = ";
+    cin >> c;
+    D=pow(b,2)-4*a*c;
+    if (D>=0)
+    {
+        x1=(-b-sqrt(D)/(2*a));
+        x2=(-b+sqrt(D)/(2*a));
+        cout << x1 << "    " << x2;
+    }
+    else
+    {
+        cout << "Решения нет";
+    }
+    return 0;
+}
