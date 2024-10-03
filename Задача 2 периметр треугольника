@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main() {
+    float a, b, y=0, P=0;
+    cout << "Введите значения:\nКатет а = ";
+    cin >> a;
+    cout << "Катет b = ";
+    cin >> b;
+    y=sqrt(pow(a,2)+pow(b,2));
+    P=y+a+b;
+    cout << "Периметр треугольника = " << P;
+return 0;
+}
