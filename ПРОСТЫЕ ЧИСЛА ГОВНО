@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	int x, y=1, i, N=3;
+	
+	for (i=0; i<N; i++)
+	{
+		cout << "\nВведите любое целое число\n";
+		cin >> x;
+		
+	}
+	bool is_prime(int x);
+	if(x < 2) return false;
+	if(x == 2) return true;
+	if(x % 2 == 0) return false;
+	for(int i=3; (i*i)<=x; i+=2){
+		if(x%i == 0 ) return false;
+	}
+	return 0;
+}
